@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Generate a CSS Color Gradient</h1>
+        <div class="outer">
+            <div class="input-color">
+                <p>Tap the buttons</p>
+                <div class="fade labels">
+                    <div class="label">
+                        <button id="myButton1" style="background-color: rgb(5, 25, 55); color: rgb(221, 221, 221);">#160093</button>
+                    </div>
+                    <div class="label">
+                        <button id="myButton2" style="background-color: rgb(168, 235, 18); color: rgb(34, 34, 34);">#12ebd9</button>
+                    </div>
+                </div>
+            </div>
+            <div class="code-box">
+                <p>Click on CSS Code:</p>
+                <code id="selectable">
+                    background-image: linear-gradient(to right top,
+                    #160093, #12ebd9);
+                </code>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
