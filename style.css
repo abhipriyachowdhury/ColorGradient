@@ -4,9 +4,11 @@
 }
 body{
     font-family: 'Montserrat', sans-serif;
-    height: 105vh;
+    height: 98vh;
     width:98vw;
     background-image: linear-gradient(to right top ,#160093,#12ebd9);
+    background-size: cover;
+    background-attachment: fixed; 
     display: flex;
     justify-content: center;
     align-items: center;
